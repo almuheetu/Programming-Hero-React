@@ -20,10 +20,19 @@
 
 
 
-//COnditional rendering option-3
+//COnditional rendering option-3: Ternary operator
+// export default function Todo({task, isDone}){
+//     return (
+//         <li> {isDone ? 'Finished': 'Work on' } : {task}</li>
+//     )
+
+// }
+
+
+//COnditional rendering option-4: &&
 export default function Todo({task, isDone}){
     return (
-        <li> {isDone ? 'Finished': 'Work on' } : {task}</li>
+        <li> {task}  {isDone && ': DoneTOm'}</li>
     )
 
-    }
+}
