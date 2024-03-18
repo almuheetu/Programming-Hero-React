@@ -6,6 +6,7 @@ import Todo from './Todo'
 import Actor from './Actor'
 import Singer from './singer'
 import BookStore from './BookStore'
+import Book from './book'
 
 
 
