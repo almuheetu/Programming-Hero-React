@@ -5,6 +5,10 @@ import './App.css'
 import Todo from './Todo'
 import Actor from './Actor'
 import Singer from './singer'
+import BookStore from './BookStore'
+
+
+
 
 function App() {
   const actors = ['Saib', 'jasim', 'rahim', 'korim', 'jasimsss', 'salmanshah'];
