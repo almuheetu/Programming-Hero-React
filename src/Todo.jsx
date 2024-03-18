@@ -30,9 +30,19 @@
 
 
 //COnditional rendering option-4: &&
-export default function Todo({task, isDone}){
-    return (
-        <li> {task}  {isDone && ': DoneTOm'}</li>
-    )
+// export default function Todo({task, isDone}){
+//     return (
+//         <li> {task}  {isDone && ': DoneTOm'}</li>
+//     )
 
-}
+// }
+
+
+
+ //COnditional rendering option-5: ||
+// export default function Todo({task, isDone}){
+//     return (
+//         <li> {task}  {isDone || ': Do it'}</li>
+//     )
+
+// }
