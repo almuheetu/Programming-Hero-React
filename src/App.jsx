@@ -40,7 +40,7 @@ function App() {
       <Todo task="custom React" isDone={false}></Todo>
       <Todo task="jsx React" isDone={true}></Todo> */}
      <button>Submit</button>
-     <button>Submit</button>
+     <button>Contact</button>
     </>
   )
 }
